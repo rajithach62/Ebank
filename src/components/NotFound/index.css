@@ -1,0 +1,30 @@
+.nf-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.nf-img {
+  height: 400px;
+  width: 500px;
+  margin: 10px;
+}
+
+.nf-head {
+  color: #183b56;
+  font-family: 'Roboto';
+}
+
+.nf-para {
+  color: #c3cad9;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 768px) {
+  .nf-img {
+    width: 90%;
+    height: 300px;
+  }
+}

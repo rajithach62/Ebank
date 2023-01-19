@@ -1,0 +1,68 @@
+.home-cont {
+  background-color: #152850;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.card-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 150px;
+}
+
+.img-1-home {
+  height: 50px;
+  width: 100px;
+  margin-left: 100px;
+}
+
+.home-butt {
+  height: 40px;
+  width: 110px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.card-2-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.head-h {
+  font-family: 'Roboto';
+  font-size: 50px;
+  color: white;
+}
+
+.d-img {
+  height: 400px;
+  width: 700px;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-cont {
+    padding: 20px;
+  }
+  .card-home {
+    padding-right: 5px;
+    padding-top: 15px;
+  }
+  .img-1-home {
+    margin-left: 25px;
+  }
+  .head-h {
+    font-size: 25px;
+  }
+  .d-img {
+    height: 250px;
+    width: 90%;
+  }
+}
